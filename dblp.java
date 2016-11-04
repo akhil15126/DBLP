@@ -11,3 +11,8 @@ class gui{
 
 
 }
+
+class article{
+
+
+}
