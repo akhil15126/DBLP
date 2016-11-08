@@ -7,14 +7,4 @@ int state;
 
 }
 
-class gui{
 
-
-}
-
-class article{
-
-
-
-}
-//Contact GitHub API Training Shop Blog About
