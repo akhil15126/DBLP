@@ -4,6 +4,6 @@ import java.util.*;
 class Query_3
 {
 Random r= new Random();
-  int rr=r.nextInt();
+  int my_random_number=r.nextInt();
 
 }
