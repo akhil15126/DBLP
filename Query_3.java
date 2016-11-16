@@ -3,7 +3,11 @@ import java.util.*;
 
 class Query_3
 {
-Random r= new Random();
-  int my_random_number=r.nextInt();
-
+Random r;
+  int my_random_number;
+  Query_3()
+  {
+  r = new Random();
+  my_random_number=r.nextInt();
+  }
 }
