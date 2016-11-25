@@ -7,9 +7,6 @@ public static void main(String ar[])
 
 } 
 
-public void startParsing(){
-}
-
 public void handleQueries(int no){
 
 }
