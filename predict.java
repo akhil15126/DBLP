@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.*;
 import java.text.*;
@@ -11,23 +10,17 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 
-
-
-
 /**
-*tester for auth_parsing
+*predict tester
 */
-public class auth_parse{
+public class predict{
 	public static void main(String[] args){
 		String a = "Wei Wang";
-		auth_search ab = new auth_search();
-		ab.author_parse(a);
-		List<publication> mydata = ab.getPublications();
-		int i=0;
-		for(publication pub : mydata){
-			System.out.println(pub.getAuthors() + " ");
-			i+=1;
-		}
-		System.out.println(i);
+		String b = "1995";
+		query3 ab = new query3();
+		ab.author_parse(a,b);
+		int mydata = ab.getPredict();
+		System.out.println(mydata);
+		//System.out.println(i);
 	}
 }
