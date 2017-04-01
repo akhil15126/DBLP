@@ -4,5 +4,6 @@ A DBLP query engine in JAVA
 
 # CONTRIBUTORS :
 
-Akhil Goel
+Akhil Goel 
+
 Mohit Agarwal
